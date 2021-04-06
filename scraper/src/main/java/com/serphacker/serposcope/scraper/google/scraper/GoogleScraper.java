@@ -59,8 +59,8 @@ public class GoogleScraper {
         NCR_COOKIE.setAttribute(ClientCookie.DOMAIN_ATTR, ".google.com");
     }
 
-    public final static String DEFAULT_DESKTOP_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0";
-    public final static String DEFAULT_SMARTPHONE_UA = "Mozilla/5.0 (Android 7.0; Mobile; rv:59.0) Gecko/59.0 Firefox/59.0 ";
+    public final static String DEFAULT_DESKTOP_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36";
+    public final static String DEFAULT_SMARTPHONE_UA = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36";
 
     private static final Logger LOG = LoggerFactory.getLogger(GoogleScraper.class);
 
